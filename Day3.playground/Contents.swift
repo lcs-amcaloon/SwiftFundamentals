@@ -11,10 +11,25 @@ import Cocoa
 
 var str = "Hello, playground"
 
-let firstScore = 12
+
+
+
+let fakers = "Fakers gonna "
+let action = fakers + "fake"
+
+let firstScore = 6
 let secondScore = 4
 
-let total = firstScore + secondScore
-let difference = firstScore - secondScore
-let product = firstScore * secondScore
-let divided = firstScore / secondScore
+firstScore == secondScore
+firstScore != secondScore
+
+let firstCard = 11
+let secondCard = 15
+
+if firstCard + secondCard == 21 {
+    print("Blackjack!")
+}
+
+if firstCard + secondCard > 21 {
+    print("you lose")
+}
