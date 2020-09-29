@@ -9,17 +9,13 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 
 import Cocoa
 
-var str = "Hello, playground"
 
-func printHelp() {
-    let message = """
-Welcome to MyApp!
 
-Run this app inside a directory of images and
-MyApp will resize them all into thumbnails
-"""
 
-    print(message)
+
+func square(number: Int) -> Int {
+    return number * number
 }
 
-printHelp()
+let result = square(number: 8)
+print(result)
