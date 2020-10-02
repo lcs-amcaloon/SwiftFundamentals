@@ -9,4 +9,15 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 
 import Cocoa
 
-var str = "Hello, playground"
+//could be used for dining hall app
+class Student {
+    var name: String
+    var firstClass: String
+
+    init(name: String, firstClass: String) {
+        self.name = name
+        self.firstClass = firstClass
+    }
+}
+
+let poppy = Student(name: "Poppy", firstClass: "Math")
